@@ -1,0 +1,17 @@
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pvpc-home"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ohme>=1.5.1",
+    "pydantic>=2.11.7",
+    "pytest>=8.4.1",
+    "pytest-asyncio>=1.0.0",
+    "pytest-coverage>=0.0",
+    "requests>=2.32.4",
+]
